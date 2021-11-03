@@ -1,0 +1,39 @@
+body {
+    background-image: url("images/bg.png");
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1 {
+    position: absolute;
+    left: 5%;
+    top: 5%;
+    right: 5%;
+    text-align: left;
+}
+.stars {
+    position: absolute;
+    bottom: 35%;
+    left: 20%;
+}
+.star {
+    display: inline;
+    position: relative;
+    padding-right: 25px;
+}
+.star:hover img[alt="Stern"] {
+    opacity: 0%;
+}
+.star img[alt="leuchtender Stern"] {
+    position: absolute;
+    left: 0;
+    opacity: 0%;
+}
+.star:hover img[alt="leuchtender Stern"] {
+    opacity: 100%;
+}

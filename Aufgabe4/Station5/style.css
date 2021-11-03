@@ -1,0 +1,21 @@
+body {
+    background-image: url("images/bg.png");
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.karte {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1 {
+    position: absolute;
+    left: 10%;
+    top: 5%;
+}
+form {
+    position: absolute;
+    left: 10%;
+    top: 25%;
+}
