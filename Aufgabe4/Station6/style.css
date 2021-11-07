@@ -1,0 +1,33 @@
+body{
+    background-image:url("images/bg.png");
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+.format{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+.karte{
+    position: absolute;
+    z-index: -1;
+}
+h1{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.columnx2 {
+    float: left;
+    width: 200px;
+    margin-top: 90px;
+    margin-left: 40px;
+    padding: 15px;
+}
+.columnx3{
+    float: left;
+    width: 120px;
+    margin-left: 45px;
+    padding: 10px;
+}
