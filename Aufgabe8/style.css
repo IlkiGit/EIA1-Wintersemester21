@@ -1,0 +1,103 @@
+body {
+    background-color: black;
+}
+
+.drumpad { 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 480px;
+} /* Flexbox */
+
+.button1 {
+    width: 150px;
+    height: 150px;
+    background-color: #1F51FF;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.button2 {
+    width: 150px;
+    height: 150px;
+    background-color: #1F51FF;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.button3 {
+    width: 150px;
+    height: 150px;
+    background-color: #1F51FF;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.button4 {
+    width: 150px;
+    height: 150px;
+    background-color:#FF1493; 
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.button5 {
+    width: 150px;
+    height: 150px;
+    background-color:#FF1493; 
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.button6 {
+    width: 150px;
+    height: 150px;
+    background-color:#FF1493; 
+    margin: 5px; 
+    border-radius: 5px;
+}
+
+.button7 {
+    width: 150px;
+    height: 150px;
+    background-color:#FF1493; 
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.button8 {
+    width: 150px;
+    height: 150px;
+    background-color:#FFA500; 
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.button9 {
+    width: 150px;
+    height: 150px;
+    background-color:#FFA500; 
+    margin: 5px;
+    border-radius: 5px;  
+}
+
+/* Icons */
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 480px;
+}
+
+i {
+    color: white;
+    font-size: 100px;
+}
+
+/* essentiell wichtig für Play- und Stop-Button*/
+.isHidden {
+    display: none;
+}
