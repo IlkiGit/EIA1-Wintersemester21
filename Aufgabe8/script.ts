@@ -28,7 +28,7 @@ window.addEventListener("load", function(): void{ /* void = "Platzhalter" */
 
     var beatIntervall: number = setInterval(function(): void{ /* zum Beenden des Beats erforderlich */
       
-      beat[index].play();
+      remix[index].play(); /* Beat wird jetzt mit Delete gelöscht*/
       index++;
 
       if (index > 2)

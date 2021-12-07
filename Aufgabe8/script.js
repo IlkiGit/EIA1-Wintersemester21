@@ -20,7 +20,7 @@ window.addEventListener("load", function () {
     /* Knopfbelegung "Play-Button" */
     document.querySelector("#play").addEventListener("click", function playBeat() {
         var beatIntervall = setInterval(function () {
-            beat[index].play();
+            remix[index].play(); /* Beat wird jetzt mit Delete gelöscht*/
             index++;
             if (index > 2)
                 index = 0;
