@@ -1,0 +1,79 @@
+body {
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    width: 600px;
+    text-align: center;
+}
+
+#feld {
+    list-style: none;
+    width: 500px;
+}
+
+#beschreibung {
+    width: 430px;
+    height: 75px;
+    border-style: hidden;
+    word-wrap: break-word;
+    outline: none;
+    font-size: x-large;
+    margin-left: 15px;
+    padding-left: 60px;
+    padding-top: 3px;
+}
+
+#addTask {
+    height: 77px;
+    width: 40px;
+    background-color: white;
+    border: white;
+    font-size: x-large;
+    cursor: pointer;
+    margin-left: -6px;
+}
+
+li {
+    width: 500px;
+    height: 50px;
+    list-style-type: none;
+    background-color: white;
+    word-wrap: break-word;
+    text-align: left;
+    border: 1px solid;
+    border-color: lightgray;
+    font-size: x-large;
+    padding-left: 15px;
+    padding-top: 20px;
+    padding-right: 15px;
+}
+
+.fa-circle {
+    font-size: x-large;
+    float: left;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.fa-check-circle {
+    font-size: x-large;
+    float: left;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.isHidden {
+    display: none !important; /* !important: überschreibt alle anderen Regeln; höchste Priorität */
+}
+
+.fa-trash-alt {
+    font-size:x-large;
+    float: right;
+    cursor: pointer;
+    margin-left: 15px;
+    visibility: hidden;
+}
+
+li:hover > .fa-trash-alt {
+    visibility: visible;
+}
