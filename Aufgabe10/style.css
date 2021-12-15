@@ -13,14 +13,6 @@ main {
     color: grey;
 }
 
-#counterOpen {
-    color: grey;
-}
-
-#counterDone {
-    color: grey;
-}
-
 .inputGroup {
     position: relative;
 }
@@ -95,4 +87,12 @@ main {
 
 .trash:hover {
     color: black;
+}
+
+#counterOffen {
+    color: grey;
+}
+
+#counterErledigt {
+    color: grey;
 }
