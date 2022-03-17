@@ -1,0 +1,107 @@
+body 
+{
+    background-color: darkgreen;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 800px;
+    font-size: larger;
+}
+#spielerkarten 
+{
+    margin-top: 50px;
+    background-color: beige;
+    border: black;
+    border-style: solid;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 600px;
+}
+#deck
+{
+    background-color: white;
+    border: black;
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+}
+#ablagekarten
+{
+    background-color: white;
+    border: black;
+    border-style: solid;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+}
+#computerkarten 
+{
+    background-color: white;
+    border: black;
+    border-style: solid;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 600px;
+}
+#spielerkarten div , #computerkarten div, #ablagekarten div
+{
+    width: 50px;
+    height: 75px;
+    margin: 5px;
+    display: inline-flex;
+    justify-content: center;
+    border: black;
+    border-style: solid;
+}
+#computerkarten div
+{
+    background-color: black;
+}
+#spielerkarten div:hover 
+{
+    border-color: red;
+    cursor: pointer;
+}
+#deck:hover 
+{
+    border-color: red;
+    cursor: pointer;
+}
+.gelb
+{
+    background-color: yellow;
+}
+.orange
+{
+    background-color: orange;
+}
+.grün
+{
+    background-color: green;
+}
+.blau
+{
+    background-color: blue;
+}
+footer 
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 20px;
+    color: white;
+}
